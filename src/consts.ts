@@ -20,7 +20,7 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/advanced-astro/astro-docs-template/tree/main`;
+export const EDIT_URL = `https://github.com/advanced-astro/astro-docs-template/tree/main`;
 
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
 

@@ -8,7 +8,7 @@ import PageContent from '../components/PageContent/PageContent.astro';
 import LeftSidebar from '../components/LeftSidebar/LeftSidebar.astro';
 import RightSidebar from '../components/RightSidebar/RightSidebar.astro';
 import Footer from '../components/Footer/Footer.astro';
-import { GITHUB_EDIT_URL, SITE } from '../consts';
+import { EDIT_URL, SITE } from '../consts';
 
 type Props = CollectionEntry<'docs'>['data'] & {
 	headings: MarkdownHeading[];
@@ -18,7 +18,7 @@ const { headings, ...data } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const currentPage = Astro.url.pathname;
 const currentFile = `src/content/docs${currentPage.replace(/\/$/, '')}.md`;
-const githubEditUrl = `${GITHUB_EDIT_URL}/${currentFile}`;
+const editUrl = `${EDIT_URL}/${currentFile}`;
 ---
 
 <html dir={data.dir} lang={data.lang} class="initial">
@@ -126,12 +126,12 @@ const githubEditUrl = `${GITHUB_EDIT_URL}/${currentFile}`;
 				<LeftSidebar currentPage={currentPage} />
 			</aside>
 			<div id="grid-main">
-				<PageContent title={data.title} headings={headings} githubEditUrl={githubEditUrl}>
+				<PageContent title={data.title} headings={headings} editUrl={editUrl}>
 					<slot />
 				</PageContent>
 			</div>
 			<aside id="grid-right" class="grid-sidebar" title="Table of Contents">
-				<RightSidebar headings={headings} githubEditUrl={githubEditUrl} />
+				<RightSidebar headings={headings} editUrl={editUrl} />
 			</aside>
 		</main>
 		<Footer path={currentFile} />

@@ -5,16 +5,16 @@ import MoreMenu from './MoreMenu.astro';
 
 type Props = {
 	headings: MarkdownHeading[];
-	githubEditUrl: string;
+	editUrl: string;
 };
 
-const { headings, githubEditUrl } = Astro.props;
+const { headings, editUrl } = Astro.props;
 ---
 
 <nav class="sidebar-nav" aria-labelledby="grid-right">
 	<div class="sidebar-nav-inner">
 		<TableOfContents client:media="(min-width: 50em)" headings={headings} />
-		<MoreMenu editHref={githubEditUrl} />
+		<MoreMenu editHref={editUrl} />
 	</div>
 </nav>
 
