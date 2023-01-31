@@ -19,7 +19,7 @@ pnpm create astro@latest -- --template advanced-astro/astro-docs-template
 - ✅ **Responsive mobile-friendly design**
 - ✅ **Sidebar navigation**
 - ✅ **Search (powered by Algolia)**
-- ✅ **Self-Hosted webfont (GDPR comliant)**
+- ✅ **Self-Hosted webfont (GDPR compliant)**
 - ✅ **Multi-language i18n**
 - ✅ **Automatic table of contents**
 - ✅ **Automatic list of contributors**
