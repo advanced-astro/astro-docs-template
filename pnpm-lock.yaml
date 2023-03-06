@@ -22,7 +22,6 @@ specifiers:
   react: ^18.2.0
   react-dom: ^18.2.0
   sass: ^1.58.3
-  sitemap: ^7.1.1
   stylelint: ^15.2.0
   stylelint-config-recommended-scss: ^9.0.1
   stylelint-config-standard: ^30.0.1
@@ -53,7 +52,6 @@ devDependencies:
   postcss-html: 1.5.0
   prettier: 2.8.4
   sass: 1.58.3
-  sitemap: 7.1.1
   stylelint: 15.2.0
   stylelint-config-recommended-scss: 9.0.1_xczz5gvex7qa2pnzrs7ducdpai
   stylelint-config-standard: 30.0.1_stylelint@15.2.0
