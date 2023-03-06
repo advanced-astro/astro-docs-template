@@ -2,9 +2,9 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
-  
+
 permissions:
   contents: read
   pages: write
@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
-        
+
       - name: Install, build, and upload your site output
         uses: withastro/action@v0
 
@@ -26,7 +26,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-      
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

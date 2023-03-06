@@ -13,7 +13,7 @@ pnpm create astro@latest -- --template advanced-astro/astro-docs-template
 
 ![docs](https://user-images.githubusercontent.com/4677417/186189283-0831b9ab-d6b9-485d-8955-3057e532ab31.png)
 
-## Features
+## Key Features
 
 - 📝 **Full Markdown and MDX support**
 - 📱 **Responsive mobile-friendly design**
@@ -89,15 +89,15 @@ The sidebar navigation is controlled by the `SIDEBAR` variable in your `src/conf
 ```ts
 export const SIDEBAR = {
   en: [
-    { text: "Section Header", header: true },
-    { text: "Introduction", link: "en/introduction" },
-    { text: "Page 2", link: "en/page-2" },
-    { text: "Page 3", link: "en/page-3" },
+    { text: 'Section Header', header: true },
+    { text: 'Introduction', link: 'en/introduction' },
+    { text: 'Page 2', link: 'en/page-2' },
+    { text: 'Page 3', link: 'en/page-3' },
 
-    { text: "Another Section", header: true },
-    { text: "Page 4", link: "en/page-4" },
-  ],
-};
+    { text: 'Another Section', header: true },
+    { text: 'Page 4', link: 'en/page-4' }
+  ]
+}
 ```
 
 Note the top-level `en` key: This is needed for multi-language support. You can change it to whatever language you'd like, or add new languages as you go. More details on this below.

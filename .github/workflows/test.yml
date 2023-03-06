@@ -1,4 +1,4 @@
-name: Build Astro site 
+name: Build Astro site
 
 on:
   - push
