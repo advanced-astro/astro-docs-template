@@ -294,10 +294,7 @@ button {
   padding: 0.33em 0.67em;
   border: 0;
   background: var(--theme-bg);
-  display: flex;
   font-size: 1rem;
-  align-items: center;
-  gap: 0.25em;
   border-radius: 99em;
   color: var(--theme-text);
   background-color: var(--theme-bg);
@@ -306,7 +303,7 @@ button {
 h2.heading {
   font-size: 1rem;
   font-weight: 700;
-  padding: 0.1rem 1rem;
+  padding: 0.2rem 1rem;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
@@ -323,7 +320,7 @@ h2.heading {
   gap: 0.5em;
   width: 100%;
   font: inherit;
-  padding: 0.4rem 0;
+  padding: 0.425rem 0;
   line-height: 1.3;
   color: inherit;
   text-decoration: none;

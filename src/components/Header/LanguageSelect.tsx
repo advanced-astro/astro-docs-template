@@ -1,6 +1,6 @@
 /** @jsxImportSource preact */
 import type { FunctionComponent } from 'preact'
-import '../../styles/langSelect.css'
+import '../../styles/langSelect.scss'
 import { KNOWN_LANGUAGES, langPathRegex } from '../../languages'
 
 const LanguageSelect: FunctionComponent<{ lang: string }> = ({ lang }) => {

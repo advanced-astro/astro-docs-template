@@ -40,10 +40,9 @@ const editUrl = `${EDIT_URL}/${currentFile}`
       .layout {
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: minmax(var(--gutter), 1fr) minmax(
-            0,
-            var(--max-width)
-          ) minmax(var(--gutter), 1fr);
+        grid-template-columns:
+          minmax(var(--gutter), 1fr) minmax(0, var(--max-width))
+          minmax(var(--gutter), 1fr);
         overflow-x: hidden;
       }
 

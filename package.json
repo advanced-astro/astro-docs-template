@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "start": "astro dev",
     "prettier:check": "prettier --check --plugin-search-dir=. .",
-    "prettier:format": "prettier --cache --write --plugin-search-dir=. ."
+    "format": "prettier --cache --write --plugin-search-dir=. .",
+    "lint:scss": "stylelint \"src/**/*.{astro,scss}\""
   },
   "dependencies": {
     "@algolia/client-search": "^4.15.0",
@@ -31,7 +32,12 @@
   "devDependencies": {
     "@astrojs/mdx": "^0.17.2",
     "html-escaper": "^3.0.3",
+    "postcss": "^8.4.21",
+    "postcss-html": "^1.5.0",
     "prettier": "^2.8.4",
-    "prettier-plugin-astro": "^0.8.0"
+    "sass": "^1.58.3",
+    "stylelint": "^15.2.0",
+    "stylelint-config-recommended-scss": "^9.0.1",
+    "stylelint-config-standard": "^30.0.1"
   }
 }

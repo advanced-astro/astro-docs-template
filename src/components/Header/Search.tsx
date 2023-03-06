@@ -2,7 +2,7 @@
 import { useState, useCallback, useRef } from 'react'
 import { ALGOLIA } from '../../consts'
 import '@docsearch/css'
-import '../../styles/search.css'
+import '../../styles/search.scss'
 
 import { createPortal } from 'react-dom'
 import * as docSearchReact from '@docsearch/react'
