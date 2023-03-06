@@ -14,6 +14,8 @@ specifiers:
   astro-html-minifier: ^0.4.1
   html-escaper: ^3.0.3
   preact: ^10.13.0
+  prettier: ^2.8.4
+  prettier-plugin-astro: ^0.8.0
   react: ^18.2.0
   react-dom: ^18.2.0
   typescript: ^4.9.5
@@ -37,6 +39,8 @@ dependencies:
 devDependencies:
   '@astrojs/mdx': 0.17.2_astro@2.0.17
   html-escaper: 3.0.3
+  prettier: 2.8.4
+  prettier-plugin-astro: 0.8.0
 
 packages:
 
@@ -2704,6 +2708,16 @@ packages:
       prettier: 2.8.4
       sass-formatter: 0.7.6
       synckit: 0.8.5
+
+  /prettier-plugin-astro/0.8.0:
+    resolution: {integrity: sha512-kt9wk33J7HvFGwFaHb8piwy4zbUmabC8Nu+qCw493jhe96YkpjscqGBPy4nJ9TPy9pd7+kEx1zM81rp+MIdrXg==}
+    engines: {node: ^14.15.0 || >=16.0.0, pnpm: '>=7.14.0'}
+    dependencies:
+      '@astrojs/compiler': 1.2.0
+      prettier: 2.8.4
+      sass-formatter: 0.7.6
+      synckit: 0.8.5
+    dev: true
 
   /prettier/2.8.4:
     resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}

@@ -4,11 +4,13 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro build",
+    "check": "astro check",
+    "dev": "astro dev",
     "preview": "astro preview",
-    "astro": "astro"
+    "start": "astro dev",
+    "prettier:check": "prettier --check --plugin-search-dir=. .",
+    "prettier:format": "prettier --cache --write --plugin-search-dir=. ."
   },
   "dependencies": {
     "@algolia/client-search": "^4.15.0",
@@ -28,6 +30,8 @@
   },
   "devDependencies": {
     "@astrojs/mdx": "^0.17.2",
-    "html-escaper": "^3.0.3"
+    "html-escaper": "^3.0.3",
+    "prettier": "^2.8.4",
+    "prettier-plugin-astro": "^0.8.0"
   }
 }
