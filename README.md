@@ -15,15 +15,15 @@ pnpm create astro@latest -- --template advanced-astro/astro-docs-template
 
 ## Features
 
-- ✅ **Full Markdown support**
-- ✅ **Responsive mobile-friendly design**
-- ✅ **Sidebar navigation**
-- ✅ **Search (powered by Algolia)**
-- ✅ **Self-Hosted webfont (GDPR compliant)**
-- ✅ **Multi-language i18n**
-- ✅ **Automatic table of contents**
-- ✅ **Automatic list of contributors**
-- ✅ (and, best of all) **dark mode**
+- 📝 **Full Markdown and MDX support**
+- 📱 **Responsive mobile-friendly design**
+- 🧭 **Sidebar navigation**
+- 🔎 **Search (powered by Algolia)**
+- 🔤 **Self-Hosted webfont (GDPR compliant)**
+- 🗨️ **Multi-language i18n**
+- 📃 **Automatic table of contents**
+- 🧑‍💻 **Automatic list of contributors**
+- 🌙 (and, best of all) **dark mode**
 
 ## 🧞 Commands
 
@@ -68,7 +68,7 @@ This theme uses a "cool blue" accent color by default. To customize this for you
 
 ## Page metadata
 
-Astro uses frontmatter in Markdown pages to choose layouts and pass properties to those layouts. If you are using the default layout, you can customize the page in many different ways to optimize SEO and other things. For example, you can use the `title` and `description` properties to set the document title, meta title, meta description, and Open Graph description.
+Astro uses frontmatter in [Markdown](https://www.markdownguide.org/) and [MDX](https://mdxjs.com/) pages to choose layouts and pass properties to those layouts. If you are using the default layout, you can customize the page in many different ways to optimize SEO and other things. For example, you can use the `title` and `description` properties to set the document title, meta title, meta description, and Open Graph description.
 
 ```markdown
 ---
