@@ -11,19 +11,19 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@algolia/client-search": "^4.14.3",
-    "@astrojs/preact": "^2.0.0",
-    "@astrojs/react": "^2.0.1",
-    "@docsearch/css": "^3.3.2",
-    "@docsearch/react": "^3.3.2",
-    "@types/node": "^18.11.18",
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "astro": "^2.0.2",
-    "preact": "^10.11.3",
+    "@algolia/client-search": "^4.15.0",
+    "@astrojs/preact": "^2.0.3",
+    "@astrojs/react": "^2.0.2",
+    "@docsearch/css": "^3.3.3",
+    "@docsearch/react": "^3.3.3",
+    "@types/node": "^18.14.6",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "astro": "^2.0.17",
+    "preact": "^10.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.5"
   },
   "devDependencies": {
     "html-escaper": "^3.0.3"
