@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@algolia/client-search': ^4.15.0
-  '@astrojs/mdx': ^0.17.2
+  '@astrojs/mdx': ^0.18.0
   '@astrojs/preact': ^2.0.3
   '@astrojs/react': ^2.0.2
   '@astrojs/sitemap': ^1.1.0
@@ -44,7 +44,7 @@ dependencies:
   typescript: 4.9.5
 
 devDependencies:
-  '@astrojs/mdx': 0.17.2_astro@2.0.17
+  '@astrojs/mdx': 0.18.0_astro@2.0.17
   '@astrojs/sitemap': 1.1.0
   astro-robots-txt: 0.4.0
   html-escaper: 3.0.3
@@ -204,7 +204,7 @@ packages:
     peerDependencies:
       astro: ^2.0.2
     dependencies:
-      '@astrojs/prism': 2.0.0
+      '@astrojs/prism': 2.1.0
       astro: 2.0.17_tbu6ibuzbmq2zng52hwcifltki
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.1
@@ -221,12 +221,36 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/mdx/0.17.2_astro@2.0.17:
-    resolution: {integrity: sha512-mol57cw1jJMcQgKMRGn7p6cewajq6JTNtqj5aAZgROWam/phVDSOCbXj/WU3O9+3qFnyKtpczoufQKwJTQltAw==}
+  /@astrojs/markdown-remark/2.1.0_astro@2.0.17:
+    resolution: {integrity: sha512-w9T5o3UWQIfMcCkM2nLWrlfVQazh/7mw+2N/85QGcSUkZy6oNJoyy8Xz/ZkDhHLx8HPO0RT9fABR0B/H+aDaEw==}
+    peerDependencies:
+      astro: ^2.1.0
+    dependencies:
+      '@astrojs/prism': 2.1.0
+      astro: 2.0.17_tbu6ibuzbmq2zng52hwcifltki
+      github-slugger: 1.5.0
+      image-size: 1.0.2
+      import-meta-resolve: 2.2.1
+      rehype-raw: 6.1.1
+      rehype-stringify: 9.0.3
+      remark-gfm: 3.0.1
+      remark-parse: 10.0.1
+      remark-rehype: 10.1.0
+      remark-smartypants: 2.0.0
+      shiki: 0.11.1
+      unified: 10.1.2
+      unist-util-visit: 4.1.2
+      vfile: 5.3.7
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@astrojs/mdx/0.18.0_astro@2.0.17:
+    resolution: {integrity: sha512-mgICosefMpl67O7ER6Yi6ylT9Hk8ZAO6GhTlx4pYXIMOWFMQlP0NXQ9teZwPhOWzBcHWnsHEF+AzVZWbiC2EBg==}
     engines: {node: '>=16.12.0'}
     dependencies:
-      '@astrojs/markdown-remark': 2.0.1_astro@2.0.17
-      '@astrojs/prism': 2.0.0
+      '@astrojs/markdown-remark': 2.1.0_astro@2.0.17
+      '@astrojs/prism': 2.1.0
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/rollup': 2.3.0
       acorn: 8.8.2
@@ -264,8 +288,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/prism/2.0.0:
-    resolution: {integrity: sha512-YgeoeEPqsxaEpg0rwe/bUq3653LqSQnMjrLlpYwrbQQMQQqz6Y5yXN+RX3SfLJ6ppNb4+Fu2+Z49EXjk48Ihjw==}
+  /@astrojs/prism/2.1.0:
+    resolution: {integrity: sha512-+II6nfIFGZ7iH0FunhRGcj/J1mCxjcHl85cZRuFePKLoIhFHJT3nC3myQnUw386hUaIn2W20McxxtAVf4leeRQ==}
     engines: {node: '>=16.12.0'}
     dependencies:
       prismjs: 1.29.0
@@ -2371,6 +2395,14 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
+  /image-size/1.0.2:
+    resolution: {integrity: sha512-xfOoWjceHntRb3qFCrh5ZFORYH8XCdYpASltMhZ/Q0KZiOwjdE/Yl2QCiWdwD+lygV5bMCvauzgu5PxBX/Yerg==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+    dependencies:
+      queue: 6.0.2
+    dev: true
+
   /immutable/4.2.4:
     resolution: {integrity: sha512-WDxL3Hheb1JkRN3sQkyujNlL/xRjAo3rJtaU5xeufUauG66JdMr32bLj4gF+vWl84DIA3Zxw7tiAjneYzRRw+w==}
 
@@ -3601,6 +3633,12 @@ packages:
 
   /queue-microtask/1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
+
+  /queue/6.0.2:
+    resolution: {integrity: sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==}
+    dependencies:
+      inherits: 2.0.4
+    dev: true
 
   /quick-lru/4.0.1:
     resolution: {integrity: sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==}
