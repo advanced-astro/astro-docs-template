@@ -12,7 +12,7 @@ specifiers:
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
   astro: ^2.0.17
-  astro-html-minifier: ^0.4.1
+  astro-html-minifier: ^0.5.0
   astro-robots-txt: ^0.4.0
   html-escaper: ^3.0.3
   postcss: ^8.4.21
@@ -37,7 +37,7 @@ dependencies:
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   astro: 2.0.17_tbu6ibuzbmq2zng52hwcifltki
-  astro-html-minifier: 0.4.1
+  astro-html-minifier: 0.5.0
   preact: 10.13.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -866,8 +866,8 @@ packages:
       - supports-color
     dev: true
 
-  /@minify-html/node/0.10.8:
-    resolution: {integrity: sha512-fS7YkbzYbQvTkWzJXHg4BJfFwK1dtkl942mY1B19X0gLlzm214MFVpmn/KGiVTWVZWCGI7aWoMCGPL2Ba0XBQA==}
+  /@minify-html/node/0.11.1:
+    resolution: {integrity: sha512-f+3VvBszFaY5xx8e7POka1K1FnVZur8Apk18uaI4lSyZrzmpLlkSBZfXOPHVhChFc0TDI+RQuBD+ws4qIt9+mg==}
     engines: {node: '>= 8.6.0'}
     hasBin: true
     requiresBuild: true
@@ -1197,10 +1197,10 @@ packages:
     hasBin: true
     dev: true
 
-  /astro-html-minifier/0.4.1:
-    resolution: {integrity: sha512-SIAxk5r4CK4/iJAZ64eg5Xv7KmVu/HDbNp/ks0gGjwOexuWtNLZHYhDSIQqi/0/oF3734uzUYkAi9zBotMTRDQ==}
+  /astro-html-minifier/0.5.0:
+    resolution: {integrity: sha512-DpVLTGPC6TataNbVZ0WeR9YH2trgQRrIxbRpQKnrb2975LbYGKPtcKhda2kli9Gsh0aQ8kp0txE308VlEC4VIg==}
     dependencies:
-      '@minify-html/node': 0.10.8
+      '@minify-html/node': 0.11.1
     dev: false
 
   /astro-robots-txt/0.4.0:
