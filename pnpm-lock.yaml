@@ -5,7 +5,7 @@ specifiers:
   '@astrojs/mdx': ^0.17.2
   '@astrojs/preact': ^2.0.3
   '@astrojs/react': ^2.0.2
-  '@astrojs/sitemap': ^1.1.0
+  '@astrojs/sitemap': ^2.0.0
   '@docsearch/css': ^3.3.3
   '@docsearch/react': ^3.3.3
   '@types/node': ^18.14.6
@@ -45,7 +45,7 @@ dependencies:
 
 devDependencies:
   '@astrojs/mdx': 0.17.2_astro@2.0.17
-  '@astrojs/sitemap': 1.1.0
+  '@astrojs/sitemap': 2.0.0
   astro-robots-txt: 0.4.0
   html-escaper: 3.0.3
   postcss: 8.4.21
@@ -289,8 +289,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/sitemap/1.1.0:
-    resolution: {integrity: sha512-JnKZcbD0WdFxw2VAj3qXb0cYKuvk6nwBYPfUy+plSa9TC9hikQrDFpd7yapOPTRf3AdmUittzFckoTw/nUilCw==}
+  /@astrojs/sitemap/2.0.0:
+    resolution: {integrity: sha512-hcemuFigv05sdXNiw0U23VO+6Duj9nq9xhINw4ZPWAQEhS/F4EiNvd9IUXb4XJ7pG93MWAnQKF9lP8EtwP6paA==}
     dependencies:
       sitemap: 7.1.1
       zod: 3.21.2
