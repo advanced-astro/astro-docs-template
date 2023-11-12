@@ -18,7 +18,7 @@ specifiers:
   postcss: ^8.4.21
   postcss-html: ^1.5.0
   preact: ^10.13.0
-  prettier: ^2.8.4
+  prettier: ^3.0.0
   react: ^18.2.0
   react-dom: ^18.2.0
   sass: ^1.58.3
@@ -50,7 +50,7 @@ devDependencies:
   html-escaper: 3.0.3
   postcss: 8.4.21
   postcss-html: 1.5.0
-  prettier: 2.8.4
+  prettier: 3.0.0
   sass: 1.58.3
   stylelint: 15.2.0
   stylelint-config-recommended-scss: 9.0.1_xczz5gvex7qa2pnzrs7ducdpai
@@ -3575,6 +3575,12 @@ packages:
     resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
+
+  /prettier/3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /pretty-format/3.8.0:
     resolution: {integrity: sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew==}

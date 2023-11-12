@@ -36,7 +36,7 @@
     "html-escaper": "^3.0.3",
     "postcss": "^8.4.21",
     "postcss-html": "^1.5.0",
-    "prettier": "^2.8.4",
+    "prettier": "^3.0.0",
     "sass": "^1.58.3",
     "stylelint": "^15.2.0",
     "stylelint-config-recommended-scss": "^9.0.1",
