@@ -19,7 +19,7 @@
     "@astrojs/react": "^2.0.2",
     "@docsearch/css": "^3.3.3",
     "@docsearch/react": "^3.3.3",
-    "@types/node": "^18.14.6",
+    "@types/node": "^20.0.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "astro": "^2.0.17",
