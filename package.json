@@ -30,7 +30,7 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^1.1.5",
+    "@astrojs/mdx": "^2.0.0",
     "@astrojs/sitemap": "^3.0.3",
     "astro-robots-txt": "^1.0.0",
     "html-escaper": "^3.0.3",
